@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "7b5dc5b6eab73d40effa7da318ce604a"
+build_time: [1523346020, 591836000]
+inputs:
+  "/Users/mluvii-mac/Desktop/GIT/MluviiLibrary/MluviiChat/MluviiChat/MluviiChatLibrary.swift": [1522066609, 0]
