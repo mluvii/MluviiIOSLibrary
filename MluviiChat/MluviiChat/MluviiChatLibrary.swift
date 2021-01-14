@@ -54,7 +54,7 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         webView?.frame = CGRect(x:0, y: 0, width: size.width, height: size.height)
     }
     
-    public func createLink(url:String, companyGuid:String, tenantId:String, presetName:String? = nil, language:String? = nil) -> String {
+    public func createLink(url:String, companyGuid:String, tenantId:String, presetName:String? = nil, language:String? = nil, scope:String? = nil) -> String {
         var link: String = "https://\(url)/MobileSdkWidget?c=\(companyGuid)&t=\(tenantId)"
          var optionalPresetName = ""
          if(presetName != nil){
@@ -64,7 +64,11 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         if(language != nil){
             optionalLanguage = "&l=\(language!)"
         }
-        let optionalQuery = "\(optionalPresetName)\(optionalLanguage)"
+        var optionalScope = ""
+        if(scope != nil){
+            optionalScope = "&s=\(scope!)"
+        }
+        let optionalQuery = "\(optionalPresetName)\(optionalLanguage)\(optionalScope)"
         print("optionalQuery \(optionalQuery)")
         link = "\(link)\(optionalQuery)"
         let encodedLink = link.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
@@ -73,7 +77,7 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         return encodedLink!
     }
     
-    public func createWebView(url:String, companyGuid:String, tenantId:String, presetName:String?, language:String?) -> WKWebView {
+    public func createWebView(url:String, companyGuid:String, tenantId:String, presetName:String?, language:String?, scope:String?) -> WKWebView {
         if(webView == nil){
             let config = WKWebViewConfiguration()
             let pref = WKPreferences()
@@ -83,7 +87,7 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
             contentController.add(self, name: "mluviiLibrary")
             config.userContentController = contentController
             config.preferences = pref
-            completeLink = createLink(url: url, companyGuid: companyGuid, tenantId: tenantId, presetName: presetName, language: language)
+            completeLink = createLink(url: url, companyGuid: companyGuid, tenantId: tenantId, presetName: presetName, language: language, scope: scope)
             webView = WKWebView(frame: CGRect(x: 0,y: 0,width: 0,height: 0), configuration: config)
             webView!.navigationDelegate = self
             webView!.uiDelegate = self
