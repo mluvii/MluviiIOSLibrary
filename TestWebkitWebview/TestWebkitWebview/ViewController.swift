@@ -46,8 +46,8 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
         chat?.setStatusUpdater(statusF: statusUpdate)
         
         // Vytvoření WKWebView, které načte url podle zadaného serveru, company GUID, tenant ID, preset name a požadovaného jazyku
-        // url, companyGuid a tenantId jsou povinné proměnné, presetName a language můžou být nil
-        webView = chat?.createWebView(url: "ptr.mluvii.com", companyGuid: "295b1064-cf5b-4a5d-9e05-e7a74f86ae5e", tenantId: "1", presetName: nil, language: nil)
+        // url, companyGuid a tenantId jsou povinné proměnné, presetName, language a scope můžou být nil
+        webView = chat?.createWebView(url: "ptr.mluvii.com", companyGuid: "295b1064-cf5b-4a5d-9e05-e7a74f86ae5e", tenantId: "1", presetName: nil, language: nil, scope: nil)
         self.view.addSubview(webView)
     }
     
