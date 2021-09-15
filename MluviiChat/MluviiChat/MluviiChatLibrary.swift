@@ -147,5 +147,8 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         webView.evaluateJavaScript(script, completionHandler: nil)
     }
     
-    
+    public func addCustomData(name:String, value:String) {
+        let script = "$owidget.addCustomData('\(name)', '\(value)')"
+        webView?.evaluateJavaScript(script, completionHandler: nil)
+    }
 }
