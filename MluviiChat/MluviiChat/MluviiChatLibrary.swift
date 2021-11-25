@@ -45,8 +45,14 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         let openScript:String = "openChat()"
         webView?.evaluateJavaScript(openScript, completionHandler: nil)
         webView?.frame = self.view.frame;
-        self.view.autoresizesSubviews = true;
-        
+        self.view.autoresizesSubviews = true;        
+    }
+    
+    public func addCustomData(name:String, value:String){
+        let openScript:String = "addCustomData(\"\(name\)\", \"\(value\)\")"
+        webView?.evaluateJavaScript(openScript, completionHandler: { (object, error) in if error == nil {print(result)} else { print(error) })
+        webView?.frame = self.view.frame;
+        self.view.autoresizesSubviews = true;        
     }
     
     public override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -147,7 +153,7 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         webView.evaluateJavaScript(script, completionHandler: nil)
     }
     
-    public func addCustomData(name:String, value:String) {
+    public func addCustomDataOld(name:String, value:String) {
         let script = "$owidget.addCustomData('\(name)', '\(value)')"
         webView?.evaluateJavaScript(script, completionHandler: nil)
     }
