@@ -53,6 +53,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
     
     // Funkce, která otevře chat ve WebView a maximalizuje ho
     func maximizeWebView(){
+        chat?.addCustomData(name: "call_param_1", value: "z aplikace")
         chat?.openChat()
     }
     
