@@ -11,11 +11,13 @@ import WebKit
 
 
 public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate, WKScriptMessageHandler {
-
+    public typealias NavigationActionDelegate = (WKWebView, WKNavigationAction)->WKWebView?
     
     private var webView:WKWebView? = nil
     
     private var completeLink: String = ""
+    
+    private var navigationActionDelegate: NavigationActionDelegate? = nil
     
     typealias ChatEnded = () -> Void
     
@@ -77,8 +79,17 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         return encodedLink!
     }
     
-    public func createWebView(url:String, companyGuid:String, tenantId:String, presetName:String?, language:String?, scope:String?) -> WKWebView {
+    public func createWebView(
+        url:String,
+        companyGuid:String,
+        tenantId:String,
+        presetName:String?,
+        language:String?,
+        scope:String?,
+        navigationActionCustomDelegate: NavigationActionDelegate?
+    ) -> WKWebView {
         if(webView == nil){
+            navigationActionDelegate = navigationActionCustomDelegate
             let config = WKWebViewConfiguration()
             let pref = WKPreferences()
             pref.javaScriptEnabled = true
@@ -111,28 +122,6 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         }
     }
     
-   /*public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage){
-        //let jsonEncoder = JSONEncoder()
-        //let jsonData = try jsonEncoder.encode(message.body['status'])
-     
-        //print("Javascript is sending message: \(String(describing: jsonObject["type"]))")
-        if(jsonObject["type"] as! String == "close"){
-            //minimizeView()
-        }
-        if(jsonObject["type"] as! String == "status"){
-            let widgetState = jsonObject["value"] as! Int32
-            print("Widget State: ", widgetState)
-            /*if(widgetState == 0){
-                OpenButton.backgroundColor = UIColor.gray
-            }else if(widgetState == 1){
-                OpenButton.backgroundColor = UIColor.green
-            }else if(widgetState == 2){
-                OpenButton.backgroundColor = UIColor.orange
-            }*/
-        }
-        //let status = message.body.componentsSeparatedByString(":")[1]
-    }*/
-    
     public func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error:Error){
         print(error.localizedDescription)
     }
@@ -145,6 +134,14 @@ public class MluviiChat :  UIViewController, WKUIDelegate, WKNavigationDelegate,
         print("Finish to load")
         let script:String = "console.log('Setting window.close');var _close = window.close; window.close= function(){ if(window['webkit'] && window['webkit'].messageHandlers.mluviiLibrary) { window['webkit'].messageHandlers.mluviiLibrary.postMessage({type:'close', value: 'true'}) } }"
         webView.evaluateJavaScript(script, completionHandler: nil)
+    }
+    
+    public func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
+        if (navigationActionDelegate != nil) {
+            return navigationActionDelegate!(webView, navigationAction)
+        }
+        
+        return nil
     }
     
     public func addCustomData(name:String, value:String) {

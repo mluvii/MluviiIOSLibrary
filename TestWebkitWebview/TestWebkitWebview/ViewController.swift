@@ -31,6 +31,17 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
             OpenButton.backgroundColor = UIColor.orange
         }
     }
+    
+    public func navigationActionDelegate(webView: WKWebView, navigationAction: WKNavigationAction) -> WKWebView? {
+        if navigationAction.targetFrame == nil, let url = navigationAction.request.url {
+          if url.description.lowercased().range(of: "http://") != nil ||
+            url.description.lowercased().range(of: "https://") != nil ||
+            url.description.lowercased().range(of: "mailto:") != nil {
+            UIApplication.shared.openURL(url)
+          }
+        }
+      return nil
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +58,15 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
         
         // Vytvoření WKWebView, které načte url podle zadaného serveru, company GUID, tenant ID, preset name a požadovaného jazyku
         // url, companyGuid a tenantId jsou povinné proměnné, presetName, language a scope můžou být nil
-        webView = chat?.createWebView(url: "ptr.mluvii.com", companyGuid: "295b1064-cf5b-4a5d-9e05-e7a74f86ae5e", tenantId: "1", presetName: nil, language: nil, scope: nil)
+        webView = chat?.createWebView(
+            url: "apptest.mluvii.com",
+            companyGuid: "295b1064-cf5b-4a5d-9e05-e7a74f86ae5e",
+            tenantId: "1",
+            presetName: "MluviiSDK",
+            language: nil,
+            scope: nil,
+            navigationActionCustomDelegate: nil
+        )
         self.view.addSubview(webView)
     }
     
