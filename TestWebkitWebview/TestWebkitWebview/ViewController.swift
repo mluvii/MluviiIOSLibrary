@@ -17,7 +17,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
     @IBOutlet weak var OpenButton: UIButton!
     var webView:WKWebView!
     var widgetState:Int32 = -1
-    var chat: MluviiChat? = nil
+    var chat: MluviiChatLibrary? = nil
     
     // Funkce, která zpracovává změnu stavu widgetu
     func statusUpdate(status: Int32) -> Void{
@@ -45,7 +45,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        chat = MluviiChat()
+        chat = MluviiChatLibrary()
         
         // Nastavení funkce, která určuje, co se má stát při zavření chatu
         chat?.setChatEnded {

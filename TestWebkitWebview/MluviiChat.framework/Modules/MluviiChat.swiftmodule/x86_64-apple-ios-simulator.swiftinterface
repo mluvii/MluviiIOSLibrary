@@ -1,0 +1,28 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 effective-4.1.50 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -Onone -module-name MluviiChat
+@_exported import MluviiChat
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+public typealias NavigationActionDelegate = (WebKit.WKWebView, WebKit.WKNavigationAction) -> WebKit.WKWebView?
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MluviiChatLibrary : UIKit.UIViewController, WebKit.WKUIDelegate, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public func setChatEnded(ended: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func setStatusUpdater(statusF: @escaping (_ status: Swift.Int32) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func resetUrl()
+  @_Concurrency.MainActor(unsafe) public func openChat()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreGraphics.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) public func createLink(url: Swift.String, companyGuid: Swift.String, tenantId: Swift.String, presetName: Swift.String? = nil, language: Swift.String? = nil, scope: Swift.String? = nil) -> Swift.String
+  @_Concurrency.MainActor(unsafe) public func createWebView(url: Swift.String, companyGuid: Swift.String, tenantId: Swift.String, presetName: Swift.String?, language: Swift.String?, scope: Swift.String?, navigationActionCustomDelegate: MluviiChat.NavigationActionDelegate?) -> WebKit.WKWebView
+  @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @_Concurrency.MainActor(unsafe) public func addCustomData(name: Swift.String, value: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}

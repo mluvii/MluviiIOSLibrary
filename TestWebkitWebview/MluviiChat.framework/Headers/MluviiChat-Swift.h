@@ -220,8 +220,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC10MluviiChat10MluviiChat")
-@interface MluviiChat : UIViewController <WKNavigationDelegate, WKScriptMessageHandler, WKUIDelegate>
+SWIFT_CLASS("_TtC10MluviiChat17MluviiChatLibrary")
+@interface MluviiChatLibrary : UIViewController <WKNavigationDelegate, WKScriptMessageHandler, WKUIDelegate>
 - (void)viewDidLoad;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
