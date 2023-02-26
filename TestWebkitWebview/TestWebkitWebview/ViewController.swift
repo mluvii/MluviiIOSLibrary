@@ -37,7 +37,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
           if url.description.lowercased().range(of: "http://") != nil ||
             url.description.lowercased().range(of: "https://") != nil ||
             url.description.lowercased().range(of: "mailto:") != nil {
-            UIApplication.shared.openURL(url)
+            UIApplication.shared.open(url)
           }
         }
       return nil
@@ -55,6 +55,11 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
         
         // Nastavení funkce, která zpracovává změnu stavu
         chat?.setStatusUpdater(statusF: statusUpdate)
+        
+        // Nastavení funkce, která relaci zpracovává, končí
+        chat?.setMluviiEventCallbackFunc(eventF: { event, sessionId in
+            print("Event and sessionID", event, sessionId ?? 0)
+        })
         
         // Vytvoření WKWebView, které načte url podle zadaného serveru, company GUID, tenant ID, preset name a požadovaného jazyku
         // url, companyGuid a tenantId jsou povinné proměnné, presetName, language a scope můžou být nil
@@ -84,7 +89,6 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
         super.didReceiveMemoryWarning()
         print("Did receive memory warning")
     }
-    
     
     //MARK: Actions
 
