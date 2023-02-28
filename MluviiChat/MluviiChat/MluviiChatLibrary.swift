@@ -25,6 +25,8 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
     
     var statusFunc: ((_ status: Int32) -> Void)? = nil
     
+    var eventFunc: ((_ event: String, _ sessionId: Int64?) -> Void)? = nil
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -35,6 +37,10 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
     
     public func setStatusUpdater(statusF: @escaping (_ status: Int32) -> Void){
         statusFunc = statusF
+    }
+    
+    public func setMluviiEventCallbackFunc(eventF: @escaping (_ event: String, _ sessionId: Int64?) -> Void){
+        eventFunc = eventF
     }
     
     public func resetUrl(){
@@ -58,10 +64,10 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
     
     public func createLink(url:String, companyGuid:String, tenantId:String, presetName:String? = nil, language:String? = nil, scope:String? = nil) -> String {
         var link: String = "https://\(url)/MobileSdkWidget?c=\(companyGuid)&t=\(tenantId)"
-         var optionalPresetName = ""
-         if(presetName != nil){
-         optionalPresetName = "&p=\(presetName!)"
-         }
+        var optionalPresetName = ""
+        if(presetName != nil){
+            optionalPresetName = "&p=\(presetName!)"
+        }
         var optionalLanguage = ""
         if(language != nil){
             optionalLanguage = "&l=\(language!)"
@@ -110,6 +116,7 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
     }
     
     public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+        
         let jsonObject = message.body as! [String:AnyObject]
         if(jsonObject["type"] as! String == "status"){
             let widgetState = jsonObject["value"] as! Int32
@@ -119,6 +126,19 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
         if(jsonObject["type"] as! String == "close"){
             print("Calling ended function")
             endedFunc!()
+        }
+        
+        if(jsonObject["type"] as! String == "sessionEnded"){
+            if let values = jsonObject["value"] as? [Any]{
+                if values.count == 2 {
+                    let eventName = values[0] as? String ?? ""
+                    let sessionID = values[1] as? Int64 ?? nil
+                    guard let eventFunc = eventFunc else{
+                        return
+                    }
+                    eventFunc(eventName, sessionID)
+                }
+            }
         }
     }
     
@@ -132,7 +152,7 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
     
     public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!){
         print("Finish to load")
-        let script:String = "console.log('Setting window.close');var _close = window.close; window.close= function(){ if(window['webkit'] && window['webkit'].messageHandlers.mluviiLibrary) { window['webkit'].messageHandlers.mluviiLibrary.postMessage({type:'close', value: 'true'}) } }"
+        let script:String = "console.log('Setting window.close');var _close = window.close; window.close= function(){if(window['webkit'] && window['webkit'].messageHandlers.mluviiLibrary) { window['webkit'].messageHandlers.mluviiLibrary.postMessage({type:'close', value: 'true'}) } };var mluviiEventHandler = function(event,sessionId){if(window['webkit'] && window['webkit'].messageHandlers.mluviiLibrary){ window['webkit'].messageHandlers.mluviiLibrary.postMessage({type:'sessionEnded', value: [event,sessionId]}); }}; window.mluviiEventHandler = mluviiEventHandler;"
         webView.evaluateJavaScript(script, completionHandler: nil)
     }
     
@@ -145,7 +165,7 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
             if url.description.lowercased().range(of: "http://") != nil ||
                 url.description.lowercased().range(of: "https://") != nil ||
                 url.description.lowercased().range(of: "mailto:") != nil {
-                UIApplication.shared.openURL(url)
+                UIApplication.shared.open(url)
             }
         }
         
