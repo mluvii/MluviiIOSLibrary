@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MluviiChat-Swift.h</key>
 		<data>
-		YwOtPDkUq8X9b9Of0dV/ddMJxHc=
+		OnYH/dBYqMoYrpAXkc4xWpmQiSU=
 		</data>
 		<key>Headers/MluviiChat.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G/YDDlYMxZEfdpqsFlLKJxawy9A=
+		PK6b94fqQcHLtZ2T20AXw4wm6UU=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		AW4V/OHDbYliH/W4AIVADfih/1c=
+		tfiz5L5bh0FOs7j9UonFdvSo6bU=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Xlbf6EYF2yae1JmmV1szvci2Ssk=
+		LigXrdy0e+ivev1OunMOtveZxPY=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4XX/q36eCWzW0hcJJ/m4PYb+Tvg=
+		lou/4tYtkstONnE0ylPGriHCQ7A=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Xlbf6EYF2yae1JmmV1szvci2Ssk=
+		LigXrdy0e+ivev1OunMOtveZxPY=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		14rr8Uo23XgNjejkJQR35JMKtvI=
+		GaBRG6xNaPgZHRl3KjFrixO2gA0=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		AW4V/OHDbYliH/W4AIVADfih/1c=
+		tfiz5L5bh0FOs7j9UonFdvSo6bU=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ypN2C6taSA7Oo/ug/wsN/oJWrvI=
+		/GhADEw5bYVOd/SskaYW14ddFeo=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QW4XecUByRu/Uidv10o5tuV9+RA=
+		RcgqadDEYQlWVB/ZBL2Ed8z4t3E=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ypN2C6taSA7Oo/ug/wsN/oJWrvI=
+		/GhADEw5bYVOd/SskaYW14ddFeo=
 		</data>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hin7qUY2T66enOLpph4PHKnqEM8=
+		BLP490Mc77R3Mf9WQ1VekvqSL9c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBsln4GhvNuQvtjuXNctLEjKV4lleAKedoaV7VrLdws=
+			efJ2FZYDMuepFVUmuBdWhhsJgppU7eIwhJqtWRHmUbc=
 			</data>
 		</dict>
 		<key>Headers/MluviiChat.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0FvY3zB9gHSWFf1gYKhHZUwbxw+/AWnYFFtl7/a2bbk=
+			5F1OadtoFbBvh2Mhgv5BEyiMAK8mjOTWB/cPrZUtkd0=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bejCSdXBSh8p6L26vddy5aVK9nzjweolcgbFMKYLdVc=
+			X9i48S7skyGsmTJf/dP0FMpRmgX3bYinn2MvzD78rvU=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			flzA5+domy8DwBArLeYHJCLyO5eZtADO0X9AgllvEpQ=
+			FgUEm/v3Xkp/j8YDEDXOPdW1xo0zZIOQdbspO8owSGU=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bejCSdXBSh8p6L26vddy5aVK9nzjweolcgbFMKYLdVc=
+			X9i48S7skyGsmTJf/dP0FMpRmgX3bYinn2MvzD78rvU=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AbOj90TeUw7H8/If0p28rNcoS6BPfpuDvL/4yxQgcMY=
+			1XlrYIfJ8C+g1Ovjv9yFl/i/rg6OkvAZ2WLpQG+kteU=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0FvY3zB9gHSWFf1gYKhHZUwbxw+/AWnYFFtl7/a2bbk=
+			5F1OadtoFbBvh2Mhgv5BEyiMAK8mjOTWB/cPrZUtkd0=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dqnzlT6C59xWXGPy3Y+s/9pIAsMAHxEXgSuT4+rwgxs=
+			I/Dvv3K/M9wtfgpCtOSW80D7mJS21HM3B39BYm/d4bk=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eBSBQv9sUdI6LDgwoJh7qOrjcM7lY5zu6BqYnJ7n0UY=
+			Np0Hm1A7cPnxWnXpTn+W12mH3XpjjqRIkw4u7SddBVM=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dqnzlT6C59xWXGPy3Y+s/9pIAsMAHxEXgSuT4+rwgxs=
+			I/Dvv3K/M9wtfgpCtOSW80D7mJS21HM3B39BYm/d4bk=
 			</data>
 		</dict>
 		<key>Modules/MluviiChat.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DB3pwuQA//FYMg2lNlVk4sbDL+kQOW2N7NpT+jJrL3w=
+			y+B/VDbFve6cdr4o5DSh5JPbevgLw4uxOWm3D/hVM94=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

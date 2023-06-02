@@ -918,6 +918,468 @@
       "offset": 462,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1368,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1373,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1382,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 12,
+      "value": "\"openChat()\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1633,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 1793,
+      "length": 20,
+      "value": "\"Orientation Change\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1849,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1855,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2095,
+      "length": 63,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2110,
+      "length": 1,
+      "value": "\"\/MobileSdkWidget?c=\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2143,
+      "length": 1,
+      "value": "\"&t=\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2157,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2259,
+      "length": 19,
+      "value": "\"&p=\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2277,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2320,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2383,
+      "length": 17,
+      "value": "\"&l=\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2399,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2439,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2496,
+      "length": 14,
+      "value": "\"&s=\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2509,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2549,
+      "length": 58,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2571,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2590,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2606,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2622,
+      "length": 32,
+      "value": "\"optionalQuery \""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2653,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2671,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2679,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2695,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2817,
+      "length": 23,
+      "value": "\"link: \""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2839,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3409,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3471,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 3584,
+      "length": 15,
+      "value": "\"mluviiLibrary\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3709,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "Array",
+      "offset": 3776,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4018,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4023,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4032,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4042,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4310,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4580,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4602,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4654,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4691,
+      "length": 16,
+      "value": "\"Widget State: \""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4813,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 24,
+      "value": "\"Calling ended function\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4933,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4955,
+      "length": 14,
+      "value": "\"sessionEnded\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5011,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5066,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5113,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5130,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5176,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5688,
+      "length": 17,
+      "value": "\"Start to load: \""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5844,
+      "length": 16,
+      "value": "\"Finish to load\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5890,
+      "length": 540,
+      "value": "\"console.log('Setting window.close');var _close = window.close; window.close= function(){if(window['webkit'] && window['webkit'].messageHandlers.mluviiLibrary) { window['webkit'].messageHandlers.mluviiLibrary.postMessage({type:'close', value: 'true'}) } };var mluviiEventHandler = function(event,sessionId){if(window['webkit'] && window['webkit'].messageHandlers.mluviiLibrary){ window['webkit'].messageHandlers.mluviiLibrary.postMessage({type:'sessionEnded', value: [event,sessionId]}); }}; window.mluviiEventHandler = mluviiEventHandler;\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 6985,
+      "length": 9,
+      "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7061,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7138,
+      "length": 9,
+      "value": "\"mailto:\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7348,
+      "length": 47,
+      "value": "\"$owidget.addCustomData('\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7380,
+      "length": 4,
+      "value": "\"', '\""
+    },
+    {
+      "filePath": "\/Users\/sidhudevarayankc\/Documents\/GitHub\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7392,
+      "length": 3,
+      "value": "\"')\""
     }
   ]
 }
