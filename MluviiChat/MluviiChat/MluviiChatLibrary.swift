@@ -103,6 +103,8 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
             let contentController = WKUserContentController()
             contentController.add(self, name: "mluviiLibrary")
             config.userContentController = contentController
+            config.allowsInlineMediaPlayback = true
+            config.mediaTypesRequiringUserActionForPlayback = []
             config.preferences = pref
             completeLink = createLink(url: url, companyGuid: companyGuid, tenantId: tenantId, presetName: presetName, language: language, scope: scope)
             webView = WKWebView(frame: CGRect(x: 0,y: 0,width: 0,height: 0), configuration: config)
