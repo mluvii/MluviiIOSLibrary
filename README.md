@@ -6,7 +6,7 @@ MluviiChatLibrary for iOS
 Features
 --------
 
--   Web-based Chat Interface: Leverage WKWebView to display chat within your app.
+-   Web-based Chat Interface: Leverage WKWebView to display chat or A/V within your app.
 -   Customizable Chat Sessions: Configure company GUID, tenant ID, language, preset name, and scope.
 -   Event Handling: Receive callbacks for chat events, status updates, and termination.
 -   Responsive Design: Automatically respond to orientation changes.
