@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161F0B722AD7AF690001B4DC /* MluviiChat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161F0B712AD7AF690001B4DC /* MluviiChat.xcframework */; };
 		C0BB9F52205AA38B00CDE821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB9F51205AA38B00CDE821 /* AppDelegate.swift */; };
 		C0BB9F57205AA38B00CDE821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BB9F55205AA38B00CDE821 /* Main.storyboard */; };
 		C0BB9F59205AA38B00CDE821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BB9F58205AA38B00CDE821 /* Assets.xcassets */; };
@@ -14,8 +15,6 @@
 		C0BB9F67205AA38B00CDE821 /* TestWebkitWebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB9F66205AA38B00CDE821 /* TestWebkitWebviewTests.swift */; };
 		C0BB9F72205AA38B00CDE821 /* TestWebkitWebviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB9F71205AA38B00CDE821 /* TestWebkitWebviewUITests.swift */; };
 		C0C5FA3B206292E3002689D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB9F53205AA38B00CDE821 /* ViewController.swift */; };
-		D4CB103229AB9E5400B4EC67 /* MluviiChat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB103029AB9E1100B4EC67 /* MluviiChat.xcframework */; };
-		D4CB103329AB9E5400B4EC67 /* MluviiChat.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB103029AB9E1100B4EC67 /* MluviiChat.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D4CB103329AB9E5400B4EC67 /* MluviiChat.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		161F0B712AD7AF690001B4DC /* MluviiChat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MluviiChat.xcframework; path = ../../../output/MluviiChat.xcframework; sourceTree = "<group>"; };
 		9807E5C82726C057004A59AB /* TestWebkitWebview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestWebkitWebview.entitlements; sourceTree = "<group>"; };
 		C0BB9F4E205AA38B00CDE821 /* TestWebkitWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWebkitWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BB9F51205AA38B00CDE821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +63,6 @@
 		C0BB9F6D205AA38B00CDE821 /* TestWebkitWebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWebkitWebviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BB9F71205AA38B00CDE821 /* TestWebkitWebviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebkitWebviewUITests.swift; sourceTree = "<group>"; };
 		C0BB9F73205AA38B00CDE821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4CB103029AB9E1100B4EC67 /* MluviiChat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MluviiChat.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4CB103229AB9E5400B4EC67 /* MluviiChat.xcframework in Frameworks */,
+				161F0B722AD7AF690001B4DC /* MluviiChat.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +148,7 @@
 		C0FEBFD920626671002758EA /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				D4CB103029AB9E1100B4EC67 /* MluviiChat.xcframework */,
+				161F0B712AD7AF690001B4DC /* MluviiChat.xcframework */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
