@@ -1,0 +1,1427 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MluviiChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MluviiChat"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MluviiChatLibrary",
+        "printedName": "MluviiChatLibrary",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)viewDidLoad",
+            "mangledName": "$s10MluviiChat0aB7LibraryC11viewDidLoadyyF",
+            "moduleName": "MluviiChat",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setChatEnded",
+            "printedName": "setChatEnded(ended:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC03setB5Ended5endedyyyc_tF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC03setB5Ended5endedyyyc_tF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStatusUpdater",
+            "printedName": "setStatusUpdater(statusF:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int32) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC16setStatusUpdater7statusFyys5Int32Vc_tF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC16setStatusUpdater7statusFyys5Int32Vc_tF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMluviiEventCallbackFunc",
+            "printedName": "setMluviiEventCallbackFunc(eventF:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.Int64?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.Int64?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int64?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int64",
+                            "printedName": "Swift.Int64",
+                            "usr": "s:s5Int64V"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC03setA17EventCallbackFunc6eventFyySS_s5Int64VSgtc_tF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC03setA17EventCallbackFunc6eventFyySS_s5Int64VSgtc_tF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetUrl",
+            "printedName": "resetUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC8resetUrlyyF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC8resetUrlyyF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openChat",
+            "printedName": "openChat()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC04openB0yyF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC04openB0yyF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openVideo",
+            "printedName": "openVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC9openVideoyyF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC9openVideoyyF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillTransition",
+            "printedName": "viewWillTransition(to:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerTransitionCoordinator",
+                "printedName": "UIKit.UIViewControllerTransitionCoordinator",
+                "usr": "c:objc(pl)UIViewControllerTransitionCoordinator"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)viewWillTransitionToSize:withTransitionCoordinator:",
+            "mangledName": "$s10MluviiChat0aB7LibraryC18viewWillTransition2to4withySo6CGSizeV_So016UIViewControllerF11Coordinator_ptF",
+            "moduleName": "MluviiChat",
+            "overriding": true,
+            "objc_name": "viewWillTransitionToSize:withTransitionCoordinator:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createLink",
+            "printedName": "createLink(url:companyGuid:tenantId:presetName:language:scope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC10createLink3url11companyGuid8tenantId10presetName8language5scopeS2S_S3SSgA2KtF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC10createLink3url11companyGuid8tenantId10presetName8language5scopeS2S_S3SSgA2KtF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createWebView",
+            "printedName": "createWebView(url:companyGuid:tenantId:presetName:language:scope:navigationActionCustomDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((WebKit.WKWebView, WebKit.WKNavigationAction) -> WebKit.WKWebView?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WebKit.WKWebView, WebKit.WKNavigationAction) -> WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "WebKit.WKWebView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WKWebView",
+                            "printedName": "WebKit.WKWebView",
+                            "usr": "c:objc(cs)WKWebView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(WebKit.WKWebView, WebKit.WKNavigationAction)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WKWebView",
+                            "printedName": "WebKit.WKWebView",
+                            "usr": "c:objc(cs)WKWebView"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WKNavigationAction",
+                            "printedName": "WebKit.WKNavigationAction",
+                            "usr": "c:objc(cs)WKNavigationAction"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC13createWebView3url11companyGuid8tenantId10presetName8language5scope30navigationActionCustomDelegateSo05WKWebF0CSS_S3SSgA2nMSgAM_So012WKNavigationQ0CtcSgtF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC13createWebView3url11companyGuid8tenantId10presetName8language5scope30navigationActionCustomDelegateSo05WKWebF0CSS_S3SSgA2nMSgAM_So012WKNavigationQ0CtcSgtF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s10MluviiChat0aB7LibraryC21userContentController_10didReceiveySo06WKUsereF0C_So15WKScriptMessageCtF",
+            "moduleName": "MluviiChat",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s10MluviiChat0aB7LibraryC7webView_7didFail9withErrorySo05WKWebE0C_So12WKNavigationCSgs0I0_ptF",
+            "moduleName": "MluviiChat",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didStartProvisionalNavigation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)webView:didStartProvisionalNavigation:",
+            "mangledName": "$s10MluviiChat0aB7LibraryC7webView_29didStartProvisionalNavigationySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "MluviiChat",
+            "objc_name": "webView:didStartProvisionalNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)webView:didFinishNavigation:",
+            "mangledName": "$s10MluviiChat0aB7LibraryC7webView_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "MluviiChat",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s10MluviiChat0aB7LibraryC7webView_09createWebE4With3for14windowFeaturesSo05WKWebE0CSgAI_So0lE13ConfigurationCSo18WKNavigationActionCSo08WKWindowK0CtF",
+            "moduleName": "MluviiChat",
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addCustomData",
+            "printedName": "addCustomData(name:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MluviiChat0aB7LibraryC13addCustomData4name5valueySS_SStF",
+            "mangledName": "$s10MluviiChat0aB7LibraryC13addCustomData4name5valueySS_SStF",
+            "moduleName": "MluviiChat",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MluviiChatLibrary",
+                "printedName": "MluviiChat.MluviiChatLibrary",
+                "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)initWithNibName:bundle:",
+            "mangledName": "$s10MluviiChat0aB7LibraryC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MluviiChat",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MluviiChat.MluviiChatLibrary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MluviiChatLibrary",
+                    "printedName": "MluviiChat.MluviiChatLibrary",
+                    "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary(im)initWithCoder:",
+            "mangledName": "$s10MluviiChat0aB7LibraryC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MluviiChat",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MluviiChat@objc(cs)MluviiChatLibrary",
+        "mangledName": "$s10MluviiChat0aB7LibraryC",
+        "moduleName": "MluviiChat",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1368,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1373,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1382,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 12,
+      "value": "\"openChat()\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1633,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 37,
+      "value": "\"$owidget.openAppOnCurrentPage('av')\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1913,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
+      "length": 20,
+      "value": "\"Orientation Change\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2120,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2126,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2366,
+      "length": 63,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2381,
+      "length": 1,
+      "value": "\"\/MobileSdkWidget?c=\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2414,
+      "length": 1,
+      "value": "\"&t=\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2428,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2463,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2530,
+      "length": 19,
+      "value": "\"&p=\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2548,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2591,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2654,
+      "length": 17,
+      "value": "\"&l=\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2670,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2710,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2767,
+      "length": 14,
+      "value": "\"&s=\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2780,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2820,
+      "length": 58,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2842,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2861,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2877,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2893,
+      "length": 32,
+      "value": "\"optionalQuery \""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2924,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2942,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2950,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 2966,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 3088,
+      "length": 23,
+      "value": "\"link: \""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 3110,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3742,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 3855,
+      "length": 15,
+      "value": "\"mluviiLibrary\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3980,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "Array",
+      "offset": 4047,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4289,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4294,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4303,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4313,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4581,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4851,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4873,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4925,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 4962,
+      "length": 16,
+      "value": "\"Widget State: \""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5062,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5084,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5112,
+      "length": 24,
+      "value": "\"Calling ended function\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5204,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5226,
+      "length": 14,
+      "value": "\"sessionEnded\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5282,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5337,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5384,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5401,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5447,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 5959,
+      "length": 17,
+      "value": "\"Start to load: \""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 6115,
+      "length": 16,
+      "value": "\"Finish to load\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 6161,
+      "length": 540,
+      "value": "\"console.log('Setting window.close');var _close = window.close; window.close= function(){if(window['webkit'] && window['webkit'].messageHandlers.mluviiLibrary) { window['webkit'].messageHandlers.mluviiLibrary.postMessage({type:'close', value: 'true'}) } };var mluviiEventHandler = function(event,sessionId){if(window['webkit'] && window['webkit'].messageHandlers.mluviiLibrary){ window['webkit'].messageHandlers.mluviiLibrary.postMessage({type:'sessionEnded', value: [event,sessionId]}); }}; window.mluviiEventHandler = mluviiEventHandler;\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7256,
+      "length": 9,
+      "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7332,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7409,
+      "length": 9,
+      "value": "\"mailto:\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7619,
+      "length": 47,
+      "value": "\"$owidget.addCustomData('\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7651,
+      "length": 4,
+      "value": "\"', '\""
+    },
+    {
+      "filePath": "\/Users\/aliaslam\/Downloads\/MluviiIOSLibrary\/MluviiChat\/MluviiChat\/MluviiChatLibrary.swift",
+      "kind": "StringLiteral",
+      "offset": 7663,
+      "length": 3,
+      "value": "\"')\""
+    }
+  ]
+}
