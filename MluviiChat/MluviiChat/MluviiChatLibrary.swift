@@ -57,6 +57,14 @@ public class MluviiChatLibrary :  UIViewController, WKUIDelegate, WKNavigationDe
         
     }
     
+    public func openVideo(){
+        let openScript:String = "$owidget.openAppOnCurrentPage('av')"
+        webView?.evaluateJavaScript(openScript, completionHandler: nil)
+        webView?.frame = self.view.frame;
+        self.view.autoresizesSubviews = true;
+        
+    }
+    
     public override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         print("Orientation Change")
         webView?.frame = CGRect(x:0, y: 0, width: size.width, height: size.height)
