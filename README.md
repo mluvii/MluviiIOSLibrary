@@ -99,6 +99,7 @@ chatLibrary.setMluviiEventCallbackFunc { event, sessionId in
 swiftCopy code
 ```
 chatLibrary.openChat()
+chatLibrary.openVideo()
 chatLibrary.resetUrl()
 chatLibrary.addCustomData(name: "name", value: "value")
 ```
