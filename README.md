@@ -99,9 +99,13 @@ chatLibrary.setMluviiEventCallbackFunc { event, sessionId in
 swiftCopy code
 ```
 chatLibrary.openChat()
-chatLibrary.openVideo()
 chatLibrary.resetUrl()
 chatLibrary.addCustomData(name: "name", value: "value")
+```
+
+### Initiate an A/V call with an operator
+```
+chatLibrary.openVideo()
 ```
 
 Support and Contribution
