@@ -103,6 +103,11 @@ chatLibrary.resetUrl()
 chatLibrary.addCustomData(name: "name", value: "value")
 ```
 
+### Initiate an A/V call with an operator
+```
+chatLibrary.openVideo()
+```
+
 Support and Contribution
 ------------------------
 
